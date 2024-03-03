@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="eduford_img/logo.png">"</a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i> <!--closing icon(using google icons)-->
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i> <!--menu icon(using google icons)-->
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+
+        <!--courses-->
+        <section class="course">
+            <h1>Course We Offer</h1>
+            <p>Welcome to Eduford University, where innovation meets education in the vibrant world 
+                of Information Technology! Our university stands as a beacon of excellence, offering 
+                a dynamic environment where students are empowered to explore, create, and thrive in 
+                the ever-evolving IT landscape.<br><br>
+
+                At Eduford University, we offer a comprehensive array of programs tailored to meet the 
+                evolving demands of the IT industry. Whether you're interested in software development, 
+                cybersecurity, data analytics, artificial intelligence, or any other IT specialization, 
+                our diverse curriculum and cutting-edge facilities provide the ideal environment for 
+                your academic and professional growth.<br><br>   
+
+                Our faculty members are esteemed experts in their respective fields, bringing a wealth of 
+                knowledge and experience to the classroom. Through hands-on projects, industry partnerships, 
+                and research opportunities, students gain practical skills and real-world experience that 
+                prepare them for success in the competitive IT landscape.<br><br>
+
+                Beyond academics, Eduford University fosters a vibrant community where students can collaborate, 
+                innovate, and network with peers, faculty, and industry professionals. Our campus offers state-of-the-art labs,
+                 collaborative workspaces, and numerous student organizations dedicated to technology and innovation.<br><br>
+
+                Join us at Eduford University and embark on a transformative journey to unleash your potential, 
+                drive innovation, and shape the future of Information Technology."</p><br><br>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Pursue your certificate coursers in IT stream and Business stream at Eduford University </p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Pursue your degree program at Eduford University</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Pursue your Master degree at Eduford University with the finest facilities in town.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!--facilities-->
+        <section class="facilities">
+            <h1>Our facilities</h1>
+            <p>At Eduford University, we encourage the balance between living, learning and playing, offering new opportunities and challenges to 
+                sharpen the skills, qualities, talents and characters of our students. We inspire leadership, creativity and innovation,
+                 promote wellness, and encourage our students to enhance their minds, bodies, and hearts.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="eduford_img/library.png">
+                    <h3>World Class Library</h3>
+                    <p>The Eduford University library consists of a comprehensive collection of over 10,000 books and access to journals. 
+                        It includes all general reading and additional reading materials for students to enhance their knowledge.
+                        An online study portal is also accessible for the students with world-renowned digital libraries to get 
+                        more information from their respective universities.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="eduford_img/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>Eduford University considers sports an important and essential structural element in the life of its students on campus. 
+                        Students have the opportunity to be part of different sport disciplines. They can also participate in 
+                        different competitions internally and externally. This, in turn, helps students to explore their passion 
+                        in sports, develop personal skills that are also beneficial for their academic career such as teamwork, 
+                        commitment, problem solving and time management.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="eduford_img/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Students can enjoy a peaceful coffee break or an informal lunchtime meeting with colleagues in a relaxed,
+                        informal surrounding of our Cafe.</p>    
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!--footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>The  first private higher education institute awarding reputed
+                British degrees <br>in the field of Information Communication 
+                Technology (ICT) and professional business.
+            </p>
+
+            <p><a href="" class="hero-btn red-btn">Explore Now</a></p>
+
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.linkedin.com/in/r-h-a-tharushi-nethma-ranasinghe-b11a22257/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <p>Made with <i class="fa-regular fa-heart"></i> by Tharushi Ranasinghe</p>
+        </section>
+        
+        <!--java Script for toggle menu-->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
